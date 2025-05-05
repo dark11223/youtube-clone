@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.png">
+        <img class="youtube-logo" src="icons/youtube-logo.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.png">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.png">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.png">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.png">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.png">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/me.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="/icons/home.png">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/explore.png">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/subscriptions.png">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/originals.png">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/youtube-music.png">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/library.png">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=emZGqqemsq8"><img class="thumbnail" src="thumbnails/hikaru-thumbnail.avif"></a>
+            <div class="video-time">59:02</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@GMHikaru"><img class="profile-picture" src="channel-pictures/hikaru.jpg"></a>
+            </div>
+    
+            <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=emZGqqemsq8" class="video-title-link">
+                  <p class="video-title">
+                    LEARN TO ATTACK WITH HIKARU NAKAMURA!!
+                  </p>
+                </a>
+          
+                <a href="https://www.youtube.com/@GMHikaru" class="video-title-link">
+                  <p class="video-author">
+                    GMHikaru
+                    </p>
+                </a>
+                
+          
+              <p class="video-stats">
+                759K views &middot; 5 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=UCCyoocDxBA"><img class="thumbnail" src="thumbnails/helena.avif"></a>
+            <div class="video-time">3:31</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mychemicalromance">
+                <img class="profile-picture" src="channel-pictures/MCR.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=UCCyoocDxBA" class="video-title-link">
+                <p class="video-title">
+                  My Chemical Romance - Helena [Official Music Video]
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@mychemicalromance" class="video-title-link">
+                <p class="video-author">
+                  My Chemical Romance
+                </p>
+              </a>
+              
+              <p class="video-stats">
+                237M views &middot; 15 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg">
+              <img class="thumbnail" src="thumbnails/JavaScript.avif">
+            </a>
+            <div class="video-time">3:26:43</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@freecodecamp">
+                <img class="profile-picture" src="channel-pictures/Freecodecamp.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" class="video-title-link">
+                <p class="video-title">
+                  Learn JavaScript - Full Course for Beginners
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@freecodecamp" class="video-title-link">
+                <p class="video-author">
+                  freeCodeCamp.org
+                </p>
+              </a>
+              
+          
+              <p class="video-stats">
+                19M views &middot; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=-G9BuHZI_DU">
+              <img class="thumbnail" src="thumbnails/magnus.avif">
+            </a>
+            
+            <div class="video-time">26:46</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@GothamChess">
+                <img class="profile-picture" src="channel-pictures/gothamchess.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=-G9BuHZI_DU" class="video-title-link">
+                <p class="video-title">
+                  Magnus Carlsen Makes History With PERFECT TOURNAMENT SCORE
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@GothamChess" class="video-title-link">
+                <p class="video-author">
+                  GothamChess
+                </p>
+              </a>
+              
+          
+              <p class="video-stats">
+                499K views &middot; 12 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=HAkHqYlqops">
+              <img class="thumbnail" src="thumbnails/Push.avif">
+            </a>
+            <div class="video-time">4:06</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MatchboxTwenty">
+                <img class="profile-picture" src="channel-pictures/matchbox-twenty.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=HAkHqYlqops" class="video-title-link">
+                <p class="video-title">
+                  Matchbox Twenty - Push (Official Video) [HD Remaster]
+                </p>
+              </a>
+              
+              <a href="https://www.youtube.com/@MatchboxTwenty" class="video-title-link">
+                <p class="video-author">
+                  Matchbox Twenty
+                </p>
+              </a>
+              
+          
+              <p class="video-stats">
+                133M views &middot; 15 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=9He4UBLyk8Y">
+              <img class="thumbnail" src="thumbnails/front-end-roadmap.avif">
+            </a>
+            <div class="video-time">19:59</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@freecodecamp">
+                <img class="profile-picture" src="channel-pictures/Freecodecamp.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=9He4UBLyk8Y" class="video-title-link">
+                <p class="video-title">
+                  Front End Developer Roadmap
+                </p>
+              </a>
+              
+              
+              <a href="https://www.youtube.com/@freecodecamp" class="video-title-link">
+                <p class="video-author">
+                  freeCodeCamp.org
+                </p>
+              </a>
+            
+              <p class="video-stats">
+                1M views &middot; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=J1Ip2sC_lss">
+              <img class="thumbnail" src="thumbnails/bini.avif">
+            </a>
+            <div class="video-time">4:29</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@BINIPH">
+                <img class="profile-picture" src="channel-pictures/bini-pic.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=J1Ip2sC_lss" class="video-title-link">
+                <p class="video-title">
+                  BINI | 'Salamin, Salamin' Official Music Video
+                </p>
+              </a>
+              
+              
+              <a href="https://www.youtube.com/@BINIPH" class="video-title-link">
+                <p class="video-author">
+                  BINI Official
+                </p>
+              </a>
+            
+              <p class="video-stats">
+                85M views &middot; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=3aaDTSAYxg4">
+              <img class="thumbnail" src="thumbnails/bini-2.avif">
+            </a>
+            <div class="video-time">4:29</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@BINIPH">
+                <img class="profile-picture" src="channel-pictures/bini-pic.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=3aaDTSAYxg4" class="video-title-link">
+                <p class="video-title">
+                  BINI - Huwag Muna Tayong Umuwi | One Music LIVE
+                </p>
+              </a>
+              
+              
+              <a href="https://www.youtube.com/@BINIPH" class="video-title-link">
+                <p class="video-author">
+                  BINI Official
+                </p>
+              </a>
+            
+              <p class="video-stats">
+                5M views &middot; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Zx31bB2vMns">
+              <img class="thumbnail" src="thumbnails/bini-3.avif">
+            </a>
+            <div class="video-time">4:25</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@BINIPH">
+                <img class="profile-picture" src="channel-pictures/bini-pic.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=Zx31bB2vMns" class="video-title-link">
+                <p class="video-title">
+                  #BINI : Pantropiko Performance Video | BINI
+                </p>
+              </a>
+              
+              
+              <a href="https://www.youtube.com/@BINIPH" class="video-title-link">
+                <p class="video-author">
+                  BINI Official
+                </p>
+              </a>
+            
+              <p class="video-stats">
+                106M views &middot; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  </body>
+</html>
